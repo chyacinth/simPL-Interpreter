@@ -1,0 +1,8 @@
+let plus = rec p =>
+      fn x => p x
+in
+    let f = (fn x => 1)
+        in f (plus 1)
+    end
+end
+

@@ -1,0 +1,15 @@
+let x = (ref 1)::(ref 2)::nil in
+
+    ref 1;
+
+    ref 2;
+
+    ref 3;
+
+    ref 4;
+
+    ref 5;
+
+    hd x
+
+end
